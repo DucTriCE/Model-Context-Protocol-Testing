@@ -1,6 +1,7 @@
 # How to Run the Simple MCP Server
 
-## Run with MCP Inspector
+## Development Mode
+The fastest way to test and debug your server is with the MCP Inspector.
 To run the server with MCP Inspector, use the following command:
 
 ```bash
