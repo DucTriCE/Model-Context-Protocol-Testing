@@ -2,7 +2,7 @@ from mcp import ClientSession
 from mcp.client.sse import sse_client
 
 async def check():
-    async with sse_client("http://192.168.72.174:8000/sse") as streams:
+    async with sse_client("http://localhost:8000/sse") as streams:
         async with ClientSession(*streams) as session:
             await session.initialize()
 
